@@ -1,0 +1,17 @@
+.not-found-image-container {
+    display: flex;
+    justify-content: center;
+    height: 20rem;
+    padding: 3rem;
+}
+
+.not-found-label {
+    display: flex;
+    justify-content: center;
+}
+
+.not-found-label p {
+    font-size: large;
+    font-weight: 700;
+    font-style: oblique;
+}

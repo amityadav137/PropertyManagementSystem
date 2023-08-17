@@ -1,0 +1,55 @@
+.owner-dashboard-container {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid rgba(128, 128, 128, 0.277); */
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    width: 90%;
+    padding: 2rem;
+    margin: auto;
+    margin-bottom: 5rem;
+}
+
+.owner-dashboard-container .owner-dashboard {
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.owner-dashboard-container .owner-dashboard .title {
+    font-weight: 800;
+    border-bottom: 3px solid rgb(196, 21, 21);
+}
+
+.chart-box {
+    padding: 2rem;
+    /* width: fit-content; */
+    width: 400px;
+    height: 250px;
+    /* height: max-content; */
+    border: 1px solid rgba(128, 128, 128, 0.277);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+
+.owner-dashboard-chart-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10% 10%;
+    grid-template-areas:
+        ". ."
+        ". .";
+}
+
+.chart-box .apexcharts-text {
+    font-weight: 700;
+    font-size: medium;
+    color: #ff4d69 !important;
+}

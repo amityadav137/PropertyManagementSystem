@@ -1,0 +1,9 @@
+.offer-status {
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 3rem;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 600;
+}

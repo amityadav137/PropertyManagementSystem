@@ -1,0 +1,14 @@
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(128, 128, 128, 0.277);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 50%;
+    padding: 3rem;
+    margin: auto;
+    margin-top: 3rem;
+}
+.forgot-password a{
+    text-decoration: none;
+}

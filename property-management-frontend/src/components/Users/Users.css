@@ -1,0 +1,36 @@
+.table-container {
+    display: block;
+    padding: 2rem;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.table-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-title .add-property-btn {
+    height: fit-content;
+    font-size: small;
+    font-weight: 700;
+}
+
+.table-title p {
+    align-items: center;
+    font-weight: 800;
+    border-bottom: 3px solid rgb(196, 21, 21);
+}
+
+
+.icon-btn-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.table-pagination-container {
+    display: flex;
+    justify-content: center;
+}

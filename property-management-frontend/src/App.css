@@ -1,0 +1,204 @@
+.App-header {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+.Banner img {
+  width: 100%;
+  height: 70vh;
+}
+
+.Property-title {
+  text-align: center;
+  position: relative;
+  top: 20px;
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+.Property-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1%;
+  gap: 1%;
+}
+
+.Property-list a {
+  text-decoration: none;
+  color: black;
+}
+
+.Property-detail {
+  position: relative;
+  margin-top: 20px;
+  left: 200px;
+  right: 200px;
+}
+
+.Property-images {
+  width: 100vh;
+}
+
+.Property-specification {
+  display: flex;
+  gap: 200px;
+}
+
+.Property-specification .title {
+  border-bottom: 2px solid black;
+}
+
+.P-data,
+.L-data {
+  display: flex;
+  flex-direction: column;
+}
+
+.Login {
+  position: relative;
+  right: 0;
+}
+
+.Copyright {
+  text-align: center;
+  font-size: 20px;
+}
+
+.App-footer {
+  /* position: fixed;
+  bottom: 0; */
+  background-color: rgb(4, 70, 99);
+  padding: 10px;
+  width: 100%;
+  height: 15rem;
+  margin-top: 3rem;
+  padding: 3rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.Copyright {
+  font-size: 20px;
+}
+
+.Property-detail {
+  position: relative;
+  margin-top: 20px;
+  left: 200px;
+  right: 200px;
+}
+
+.propertyTitle {
+  display: flex;
+  gap: 20px
+}
+
+.propertyTitle button {
+  background-color: #ACBBD4;
+  border: none;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.icon-btn {
+  padding: 1px;
+}
+
+.Login {
+  position: relative;
+  right: 0;
+}
+
+.favorite {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.favorite .status {
+  margin-left: 10px;
+}
+
+.signUp-section a {
+  text-decoration: none;
+}
+
+.propertyOption {
+  display: flex;
+  justify-content: center;
+  background-color: #076d99;
+  color: white;
+  transform: rotate(-20deg);
+  width: 25%;
+}
+
+.svg.bi.bi-heart-fill {
+  color: #324176;
+}
+
+.propertyOptionDetail {
+  display: flex;
+  justify-content: center;
+  background-color: #076d99;
+  color: white;
+  transform: rotate(-21deg);
+  width: 10%;
+  position: relative;
+  top: 25px;
+}
+
+.filterProperty {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.property-card-image {
+  height: 200px;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(128, 128, 128, 0.277);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 50%;
+  padding: 3rem;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.forgot-password a {
+  text-decoration: none;
+}
+
+.back-to-login a {
+  text-decoration: none;
+}
+
+.header-user-icon {
+  height: 1rem;
+  width: 1rem;
+}
+
+.header-user-icon img {
+  height: 2%;
+  width: 3%;
+}
+
+.logout-icon {
+  margin-right: 10px;
+}
+
+.login-btn {
+  width: 5rem;
+  height: fit-content;
+}
+
+.login-btn .content {
+  font-size: 1rem;
+  font-weight: 500;
+}

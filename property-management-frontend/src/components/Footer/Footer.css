@@ -1,0 +1,22 @@
+.footer-contents {
+    display: flex;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    justify-content: space-between;
+    color: white;
+}
+
+.footer-sub-title {
+    display: block;
+    font-size: medium;
+    font-weight: 800;
+    border-bottom: 3px solid rgb(231, 87, 87);
+}
+
+.footer-sub-content {
+    margin-bottom: 1.5rem;
+}
+
+.title-sub-data {
+    margin-left: 1rem;
+}
